@@ -1,0 +1,5 @@
+l=input("enter the list:")
+li=l.split(" ")
+for i in li:
+    if int (i)>0:
+        print(i,end=" ")
